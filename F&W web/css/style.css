@@ -1,0 +1,367 @@
+:root{
+    --bs-green:#00A79D;
+    --bs-black:#000000;
+    --bs-light:#777777;
+    --bs-semilight:#333333;
+    --bs-mont:'Montserrat', sans-serif;
+    --bs-font-railway:'Raleway', sans-serif;
+    --bs-poppins:'Poppins', sans-serif;
+    
+
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.color-green{
+    color: var(--bs-green);
+}
+.color-black{
+    color: var(--bs-black);
+}
+.color-ash{
+    color: var(--bs-light);
+}
+.bg-ash{
+    background-color: var(--bs-light);
+}
+.bg-green{
+    background-color: var(--bs-green);
+}
+
+.font-rale{
+    font-family: var(--bs-font-railway);
+}
+.font-mont{
+    font-family: var(--bs-mont);
+}
+.font-popins{
+    font-family: var(--bs-poppins);
+}
+
+
+#nav{
+    font-family: var(--bs-mont);
+    color: var(--bs-green);
+}
+
+
+.nav-link{
+
+        color: var(--bs-green);
+        font-size: 20px;
+        font-weight: bold;
+}
+
+#nav ul li a {
+    
+    color: var(--bs-green);
+
+    font-size: 25px;
+    margin: 10px;
+
+}
+
+.navbar-toggler{
+    height: 45px;
+    border-radius: 50%;
+    width: 45px;
+}
+
+
+
+
+#herosection-home{
+    height: 760px;
+    background: url(../images/home-hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#services{
+   min-height: 941px;
+    background: url(../images/service-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#services .service-card{
+
+    height: 337.98px;
+    /* background: url(../images/gradient.png); */
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    width: 250px;
+    
+    
+}
+
+.service-card img{
+    height: 70px;
+    width: 70px;
+}
+
+.card-second{
+
+  /* transform: translateY(-20%); */
+  background-color: #00A79D;
+  color: #ffffff;
+}
+
+#process{
+    height: 616px;
+    background: url(../images/process-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+#about{
+    min-height: 652px;
+    background: url(../images/about-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+#life-at{
+    min-height: 620px;
+    background:url(../images/life-at.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lift-card {
+
+    height: 300px;
+    /* width: 300px; */
+    /* border: 1px solid; */
+}
+
+/* ----------------life card---------------------- */
+
+
+/* ----------------life card---------------------- */
+
+#testimonials{
+   min-height: 710px;
+    background: url(../images/testimonials-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.feedback{
+    min-height: 353px;
+    width: 900;
+    background-color: #ffffff;
+    border-radius: 60px 12px;
+}
+
+#contact{
+    height: 300px;
+    
+}
+.contact-btn{
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+    border:2px solid var(--bs-green);
+    font-family: var(--bs-mont);
+    font-weight: bold;
+    color: var(--bs-black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer{
+   min-height: 471px;
+    background-color: #1C1C1C;
+    color: #ffffff;
+    font-family: var(--bs-poppins);
+
+
+}
+
+#footer ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#footer ul li img{
+    margin-right: 15px;
+}
+
+/* ==========================================about page================================================= */
+
+
+#about-herosection{
+    min-height: 100vh;
+}
+.about-head{
+    font-size: 60px;
+    font-weight:900;
+}
+
+#level-up{
+    min-height: 100vh;
+}
+.inner-level{
+    height: 218px;
+    width: 218px;
+    border: 1px solid #505050;
+}
+
+.inner-level p{
+    color: #505050;
+    font-size: 14px;
+}
+
+.bus-head{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.level-para{
+    font-size: 14px;
+}
+#loop{
+    height: 582px;
+}
+#loop-col{
+    background-color: #f2f2f2;
+    height: 202px;
+    /* border: 2px solid; */
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    
+}
+/* ==========================================about page=================================================z */
+
+
+
+/* ==========================================contact page=================================================z */
+
+
+    #contact-herosection{
+        min-height: 100vh;
+        align-items: center;
+        justify-content: center;
+    }
+
+        .contact-card{
+           
+          
+            color: #ffffff;
+            font-family: var(--bs-poppins);
+
+            background:radial-gradient(#00A79D,#077870);
+        }
+
+        .contact-card ul li a{
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .radio input[type="radio"] {
+/* 
+                accent-color:var(--bs-green);
+                border-color: red; */
+        }
+
+        #contact-us label{
+
+            color: #000000;
+            font-family: var(--bs-poppins);
+            font-size: 18px;
+            font-weight:500;
+
+        }
+
+        #contact-us input{
+
+            border: 0;
+            border-bottom: 1px solid #000000;
+            outline: 0;
+            border-radius: 0    ;
+        }
+
+        /* input:active{
+            border: none;
+            outline: none;
+        } */
+/* ==========================================contact page=================================================z */
+
+
+/* ==========================================Service page=================================================z */
+
+#hero-service{
+    min-height: 100vh;
+}
+.serv-img1{
+    height:300px ;
+    /* width: 264px; */
+    border: 1px solid;
+}
+
+.serv-img2{
+    height: 250px;
+    /* width: 250px; */
+    border: 1px solid;
+}
+
+.serv-h2{
+    font-family: var(--bs-mont);
+    color: var(--bs-black);
+    font-size: 40px;
+    font-weight: 900;
+
+}
+.serv-p{
+    color: #aaaaaa;
+    font-size: 16px;
+    font-weight: 400;
+}
+.serv-list{
+    color: var(--bs-black);
+    font-size: 16px;
+    /* font-weight:sebold; */
+}
+/* ==========================================service page=================================================z */
+
+
+
+
+@media only screen and (min-width:1024px) {
+
+
+    .about-head{
+        font-size: 80px;
+        font-weight:900;
+    }
+
+    .transform-card{
+
+        transform: translateY(-20%);
+    }
+
+    .level-2, .level-4{
+        transform: translateY(-20%);
+    }
+
+    .contact-card{
+
+        /* width: 435px; */
+        height: 660px;
+    }
+
+    
+}
