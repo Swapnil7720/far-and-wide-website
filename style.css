@@ -54,14 +54,17 @@
 .nav-link{
 
         color: var(--bs-green);
-        font-size: 36px;
+        font-size: 20px;
         font-weight: bold;
 }
 
-#nav ul li a img{
-    /* height: 16px; */
-    width: 16px;
-    margin-left: 10px;
+#nav ul li a {
+    
+    color: var(--bs-green);
+
+    font-size: 25px;
+    margin: 10px;
+
 }
 
 .navbar-toggler{
@@ -203,7 +206,7 @@
     min-height: 100vh;
 }
 .about-head{
-    font-size: 80px;
+    font-size: 60px;
     font-weight:900;
 }
 
@@ -245,10 +248,105 @@
 
 
 
+/* ==========================================contact page=================================================z */
+
+
+    #contact-herosection{
+        min-height: 100vh;
+        align-items: center;
+        justify-content: center;
+    }
+
+        .contact-card{
+           
+          
+            color: #ffffff;
+            font-family: var(--bs-poppins);
+
+            background:radial-gradient(#00A79D,#077870);
+        }
+
+        .contact-card ul li a{
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .radio input[type="radio"] {
+/* 
+                accent-color:var(--bs-green);
+                border-color: red; */
+        }
+
+        #contact-us label{
+
+            color: #000000;
+            font-family: var(--bs-poppins);
+            font-size: 18px;
+            font-weight:500;
+
+        }
+
+        #contact-us input{
+
+            border: 0;
+            border-bottom: 1px solid #000000;
+            outline: 0;
+            border-radius: 0    ;
+        }
+
+        /* input:active{
+            border: none;
+            outline: none;
+        } */
+/* ==========================================contact page=================================================z */
+
+
+/* ==========================================Service page=================================================z */
+
+#hero-service{
+    min-height: 100vh;
+}
+.serv-img1{
+    height:300px ;
+    /* width: 264px; */
+    border: 1px solid;
+}
+
+.serv-img2{
+    height: 250px;
+    /* width: 250px; */
+    border: 1px solid;
+}
+
+.serv-h2{
+    font-family: var(--bs-mont);
+    color: var(--bs-black);
+    font-size: 40px;
+    font-weight: 900;
+
+}
+.serv-p{
+    color: #aaaaaa;
+    font-size: 16px;
+    font-weight: 400;
+}
+.serv-list{
+    color: var(--bs-black);
+    font-size: 16px;
+    /* font-weight:sebold; */
+}
+/* ==========================================service page=================================================z */
+
+
+
 
 @media only screen and (min-width:1024px) {
 
 
+    .about-head{
+        font-size: 80px;
+        font-weight:900;
+    }
 
     .transform-card{
 
@@ -257,6 +355,12 @@
 
     .level-2, .level-4{
         transform: translateY(-20%);
+    }
+
+    .contact-card{
+
+        /* width: 435px; */
+        height: 660px;
     }
 
     
